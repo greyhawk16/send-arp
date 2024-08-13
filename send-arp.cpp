@@ -86,6 +86,8 @@ std::string getMyMacAddr(const std::string& iface) {
 
 
 int main(int argc, char* argv[]) {
+	char name[] = "양준헌"; 
+	printf("[bob13][개발]send-arp[%s]", name);
 	if (argc != 2) {
 		usage();
 		return -1;
